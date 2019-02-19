@@ -1,0 +1,37 @@
+#landscape {
+    background-image: url("img/osiedle_elew_dluga_1.png");
+}
+
+@media screen and (min-width: 1600px) {
+    h2 {
+        font-size: 3em;
+    }
+    p,
+    ul {
+        font-size: 1.5em;
+    }
+  #kontakt row {
+      font-size: 2em;
+    }
+
+}
+
+@media screen and (min-width: 2200px) {
+
+  .container {
+    max-width: 1600px;
+    margin: auto;
+  }
+
+    h2 {
+        font-size: 4em;
+    }
+    p,
+    ul {
+        font-size: 2em;
+    }
+  #kontakt p  {
+      font-size: 2em;
+    }
+
+}
